@@ -27,3 +27,51 @@ header h1 span{
     height: 200px;
     width: 100%;
 }
+
+/*comtents-----*/
+.contents{
+    margin: 0 auto;
+    width: 450px;
+    background-color: #F8F8F8;
+}
+.content{
+    padding: 10px 0 200px 0;
+    text-align: center;
+}
+.content h2{
+    font-size: 25px;
+    font-weight: 200;
+    padding-bottom: 10px;
+}
+
+.text{
+    font-size: 12px;
+    font-weight: 300;
+}
+.center{
+    text-align: center;
+}
+
+#self-portrait{
+    margin: 60px auto;
+    height: 200px;
+    width: 200px;
+}
+
+#self-introduction{
+    padding-left: 30px;
+}
+#self-introduction dt{
+    float: left;
+    padding-bottom: 10px;
+    width: 150px;
+    padding-right: 30px;
+    text-align: left;
+    font-weight: 300;
+}
+#self-introduction dd{
+    padding-bottom: 10px;
+    text-align: left;
+    margin-left: 150px;
+    font-weight: 300;
+}
