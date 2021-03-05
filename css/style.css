@@ -84,6 +84,9 @@ header h1 span{
     margin-left: 150px;
     font-weight: 300;
 }
+.link-url{
+    text-decoration: underline;
+}
 
 .link-image{
     width: 300px;
