@@ -24,7 +24,7 @@ header h1 span{
     font-size: 20px;
 }
 #header-cover{
-    height: 200px;
+    height: 160px;
     width: 100%;
 }
 
@@ -36,11 +36,11 @@ header h1 span{
     background-color: #F8F8F8;
 }
 .content{
-    padding: 10px 0 100px 0;
+    padding: 10px 0 150px 0;
     text-align: center;
 }
-.introduction{
-    padding-bottom: 200px;
+.works-content{
+    padding-bottom: 0;
 }
 .content h2{
     font-size: 25px;
@@ -106,6 +106,7 @@ header h1 span{
 hr{
     width: 400px;
     margin: 0 auto;
+    padding: 20px 0 100px;
 }
 
 /*footer-----*/
