@@ -18,6 +18,7 @@
     <!--自分の定義したもの-->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Sosuke Mikami's Portfolio</title>
 </head>
 <body>
@@ -35,17 +36,21 @@
         <div class="content">
             <h2 id="about-title">About</h2>
             <p  class="center text">東京でプログラミングをしている学生です。<br>システムエンジニアを目指しています。</p>
-            <img id="self-portrait" src="image/my-image.png" alt="自画像">
 
-            <dl id="self-introduction">
-                <dt>名前:</dt><dd>三上 宗祐</dd>
-                <dt>大学:</dt><dd>法政大学デザイン工学部<br>システムデザイン学科3年生</dd>
-                <dt>年齢:</dt><dd>20才</dd>
-                <dt>GitHub:</dt><dd><a class="link-url" href="https://github.com/sgmikami03?">https://github.com/sgmikami03</a></dd>
-                <dt>メールアドレス:</dt><dd>sosukemikami@gmail.com</dd>
-                <dt>使用言語:</dt><dd>HTML、CSS、JavaScript、PHP</dd>
-                <dt>趣味:</dt><dd>ソフトテニス</dd>
-            </dl>
+            <div class="box-container">
+                <img id="self-portrait" src="image/my-image.png" alt="自画像" class="box">
+
+                <dl id="self-introduction" class="box">
+                    <dt>名前:</dt><dd>三上 宗祐</dd>
+                    <dt>大学:</dt><dd>法政大学デザイン工学部<br>システムデザイン学科3年生</dd>
+                    <dt>年齢:</dt><dd>20才</dd>
+                    <dt>GitHub:</dt><dd><a class="link-url" href="https://github.com/sgmikami03?">https://github.com/sgmikami03</a></dd>
+                    <dt>メールアドレス:</dt><dd>sosukemikami@gmail.com</dd>
+                    <dt>使用言語:</dt><dd>HTML、CSS、JavaScript、PHP</dd>
+                    <dt>趣味:</dt><dd>ソフトテニス</dd>
+                </dl>
+            </div>
+            
 
             <!--worksがheaderに埋もれてしまうので工夫-->
             <div id='works-title'></div>
